@@ -43,3 +43,7 @@ with open('qiye.csv','w') as f:
     #写入多行
     f_csv.writerows(rows)
 
+#注意
+#在存储csv文件时，需要统一存储数据的类型，代码中使用encode('utf')作用就是将title,real_title,href,date变量统一为str
+#
+#
